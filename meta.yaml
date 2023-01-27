@@ -1,0 +1,19 @@
+package:
+  name: scip
+  version: "3.2.0"
+
+source:
+  url: https://www.scipopt.org/download/release/scipoptsuite-3.2.0.tgz
+  sha256: 69bf32051c0dc4528dff57cacf8701bae0911186bb1f877cce0370bf699e69ae
+
+build:
+  number: 5
+
+requirements:
+ build:
+   - libgcc
+ run:
+   - libgcc
+
+about:
+  home: https://scipopt.org/
